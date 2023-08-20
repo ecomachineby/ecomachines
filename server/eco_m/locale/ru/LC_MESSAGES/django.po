@@ -1,0 +1,288 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-10 13:10+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: about/models.py:7
+msgid "Category"
+msgstr "Категория"
+
+#: about/models.py:11 client/models.py:82
+msgid "Text"
+msgstr "Текст"
+
+#: about/models.py:21
+msgid "Help Text"
+msgstr "Текст справки"
+
+#: about/models.py:22
+msgid "Help Texts"
+msgstr "Справочные тексты"
+
+#: about/models.py:27 article/models.py:10 contact/models.py:25
+#: product/models.py:21 service/models.py:8 service/models.py:25
+msgid "Title"
+msgstr "Заголовок"
+
+#: about/models.py:31 article/models.py:18 client/models.py:112
+#: product/models.py:8 service/models.py:37
+msgid "Image"
+msgstr "Изображение"
+
+#: about/models.py:34 service/models.py:12 service/models.py:40
+msgid "Description"
+msgstr "Описание"
+
+#: about/models.py:41
+msgid "Step"
+msgstr "Шаг"
+
+#: about/models.py:42 about/models.py:52
+msgid "Steps"
+msgstr "Шаги"
+
+#: about/models.py:47
+msgid "Slogan"
+msgstr "Лозунг"
+
+#: about/models.py:61
+msgid "About"
+msgstr "О нас"
+
+#: about/models.py:62
+msgid "Abouts"
+msgstr "О нас"
+
+#: article/models.py:14 product/models.py:25 service/models.py:33
+msgid "Slug"
+msgstr ""
+
+#: article/models.py:21 service/models.py:48
+msgid "Constructor"
+msgstr "Конструктор"
+
+#: article/models.py:30 service/models.py:29
+msgid "Best"
+msgstr "Лучшая"
+
+#: article/models.py:38
+msgid "Article"
+msgstr "Статья"
+
+#: article/models.py:39
+msgid "Articles"
+msgstr "Статьи"
+
+#: client/models.py:13 client/models.py:48 client/models.py:74
+msgid "Profile"
+msgstr "Клиент"
+
+#: client/models.py:18 client/models.py:67
+msgid "Client Product"
+msgstr "Продукт"
+
+#: client/models.py:25 client/models.py:59 client/models.py:86
+#: product/models.py:52
+msgid "Date"
+msgstr "Дата"
+
+#: client/models.py:29
+msgid "File"
+msgstr "Файл"
+
+#: client/models.py:36
+msgid "Product File"
+msgstr "Файл продукта"
+
+#: client/models.py:37
+msgid "Product Files"
+msgstr "Файлы продукта"
+
+#: client/models.py:42
+msgid "Code"
+msgstr "Маркировка"
+
+#: client/models.py:54 product/models.py:64
+msgid "Product"
+msgstr "Продукт"
+
+#: client/models.py:68
+msgid "Client Products"
+msgstr "Клиентские продукты"
+
+#: client/models.py:79 contact/models.py:28
+msgid "Value"
+msgstr "Значение"
+
+#: client/models.py:94
+msgid "Comment"
+msgstr "Отзыв"
+
+#: client/models.py:95
+msgid "Comments"
+msgstr "Отзывы"
+
+#: client/models.py:101
+msgid "User"
+msgstr "Пользователь"
+
+#: client/models.py:107
+msgid "Title object"
+msgstr "Объект"
+
+#: client/models.py:117
+msgid "Company"
+msgstr "Компания"
+
+#: client/models.py:125
+msgid "Client"
+msgstr "Клиент"
+
+#: client/models.py:126
+msgid "Clients"
+msgstr "Клиенты"
+
+#: contact/models.py:8
+msgid "Name"
+msgstr "Имя"
+
+#: contact/models.py:12
+msgid "Link"
+msgstr "Связь"
+
+#: contact/models.py:19
+msgid "Social"
+msgstr "Социальное"
+
+#: contact/models.py:20
+msgid "Socials"
+msgstr "Социальные сети"
+
+#: contact/models.py:36 contact/models.py:37
+msgid "Detail Info"
+msgstr "Детальная информация"
+
+#: contact/models.py:42
+msgid "Office phone"
+msgstr "Офисный телефон"
+
+#: contact/models.py:52
+msgid "Corporate email"
+msgstr "Корпоративная почта"
+
+#: contact/models.py:57
+msgid "Messanger"
+msgstr "Мессенджер"
+
+#: contact/models.py:62
+msgid "Detail info"
+msgstr "Детальная информация"
+
+#: contact/models.py:66
+msgid "Partner email"
+msgstr "Партнёрская почта"
+
+#: contact/models.py:71
+msgid "Vacancy email"
+msgstr "Почта для вакансий"
+
+#: contact/models.py:76
+msgid "Primal address"
+msgstr "Основной адрес"
+
+#: contact/models.py:80
+msgid "ContextFooter"
+msgstr "Контекст Подвала"
+
+#: contact/models.py:84
+msgid "Coordinate X"
+msgstr "Координата X"
+
+#: contact/models.py:88
+msgid "Coordinate Y"
+msgstr "Координата Y"
+
+#: contact/models.py:96
+msgid "Contact"
+msgstr "Контакт"
+
+#: contact/models.py:97
+msgid "Contacts"
+msgstr "Контакты"
+
+#: product/models.py:15
+msgid "ProductImage"
+msgstr "Изображение Продукта"
+
+#: product/models.py:16
+msgid "ProductImages"
+msgstr "Изображения Продукта"
+
+#: product/models.py:29
+msgid "Content"
+msgstr "Контент"
+
+#: product/models.py:33
+msgid "How it works"
+msgstr "Как это работает"
+
+#: product/models.py:37
+msgid "Characteristics"
+msgstr "Характеристики"
+
+#: product/models.py:42
+msgid "Images"
+msgstr "Картинки"
+
+#: product/models.py:46
+msgid "Front image"
+msgstr "Лицевая картинка"
+
+#: product/models.py:49
+msgid "PDF"
+msgstr ""
+
+#: product/models.py:65
+msgid "Products"
+msgstr "Продукты"
+
+#: service/models.py:19
+msgid "Stage"
+msgstr "Шаг"
+
+#: service/models.py:20 service/models.py:44
+msgid "Stages"
+msgstr "Шаги"
+
+#: service/models.py:61
+msgid "Service"
+msgstr "Услуга"
+
+#: service/models.py:62
+msgid "Services"
+msgstr "Услуги"
+
+#, fuzzy
+#~| msgid "Client Product"
+#~ msgid "ClientProduct"
+#~ msgstr "Клиентский продукт"
+
+#~ msgid "Files"
+#~ msgstr "Файлы"
